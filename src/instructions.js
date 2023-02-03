@@ -1,5 +1,4 @@
 // Elements
-
 const instructions = document.querySelector('.instructions');
 const overlay = document.querySelector('.overlay');
 const btnCloseInstructPane = document.querySelector(
