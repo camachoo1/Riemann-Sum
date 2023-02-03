@@ -7,7 +7,7 @@ h1#header {
   justify-content: center;
   align-items: column;
   color: solid black;
-  font-family: cursive;
+  font-family: arame;
   font-style: italic;
   font-weight: bold;
 }
@@ -16,21 +16,22 @@ h3#expressions {
   display: flex;
   justify-content: left;
   align-items: column;
-  font-family: cursive;
+  font-family: arame;
 }
 
 h3#graph {
   display: flex;
   justify-content: right;
   align-items: column;
+  font-family: arame;
 }
 
 h2#instructions {
   font-size: medium;
-  font-family: fantasy;
-  color: teal;
+  font-family: arame;
+  color: black;
 }
 
 div.dcg-graph-outer {
-  border-color: aqua;
+  border-color: solid black;
 }

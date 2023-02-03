@@ -29,7 +29,8 @@
         expressions: true,
         settingsMenu: false,
         expressionsCollapsed: false,
-        folders: true,
+        notes: true,
+        lockViewport: true
       });
 
 
@@ -134,6 +135,7 @@
 
       let I = calculator.HelperExpression({ latex: 'I' })
       I.observe('numericValue', () => console.log(I.numericValue))
+
       const newDefaultState = calculator.getState()
       calculator.setDefaultState(newDefaultState)
 
