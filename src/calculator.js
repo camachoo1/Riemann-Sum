@@ -1,7 +1,3 @@
-let instruct = document.getElementById('instructions');
-instruct.innerHTML =
-  "Below is a sample of what a basic riemann sum looks like. To use this page click on the first expression and input a valid function with the format of 'f(x) = x'. You will be able to use the sliders to control the interval that you would want to simulate. Use the partitions to be able to increase of decrease the amount of partitions used to estimate the area under the curve. Use the method to choose between a left point, midpoint, or right point sum method.";
-
 const elt = document.getElementById('calculator');
 
 const calculator = Desmos.GraphingCalculator(elt, {
@@ -27,7 +23,7 @@ calculator.setExpressions([
   },
   {
     id: 'user-graph',
-    latex: 'f(x)=x^2',
+    latex: 'f(x)=x',
     color: Desmos.Colors.BLACK,
     label: 'Your function',
     showLabel: true,
@@ -127,7 +123,6 @@ calculator.setExpressions([
 // console.log(calculator.getExpressions()[11].latex);
 const sumBox = document.querySelector('#sum');
 
-console.log(num);
 // sumBox.value = num;
 
 const newDefaultState = calculator.getState();
