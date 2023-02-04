@@ -1,0 +1,144 @@
+body {
+  font-family: arame;
+  background-color: lightslategray;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: solid black;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* #sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.headers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-width: auto;
+}
+
+#graph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.instructions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem black;
+  z-index: 10;
+}
+
+.background-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem black;
+  z-index: 10;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show-instructions {
+  align-items: center;
+  font-family: arame;
+  padding: 6px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  cursor: auto;
+}
+
+.show-background {
+  align-items: center;
+  font-family: arame;
+  padding: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  cursor: auto;
+}
+
+.open-expressions {
+  align-items: center;
+  font-family: arame;
+  padding: 6px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 10rem;
+  cursor: auto;
+}
+
+.close-instructions-pane {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+p {
+  font-family: arame;
+}
+
+span#warning {
+  color: red;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#linkedin,
+#github {
+  height: 25px;
+  width: 25px;
+}

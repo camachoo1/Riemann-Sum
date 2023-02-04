@@ -7,13 +7,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./dist/main.css">
   <script src="./dist/main.js"></script>
+  <!-- <script src="./src/index.scss"></script> -->
   <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
   <title>Riemann Sum</title>
 </head>
 
 <body>
   <h1 id="header">Intro to the Riemann Sum</h1>
-  <button class="show-instructions">Instructions</button>
+  <div class="btns">
+    <button class="show-instructions">Instructions</button>
+    <button class="open-expressions">Open Graph and Expressions</button>
+    <button class="show-background">Background Info</button>
+  </div>
+
+  <br>
 
   <div class="instructions hidden">
     <button class="close-instruction-pane">&times;</button>
@@ -47,7 +54,7 @@
     </p>
   </div>
 
-  <button class="show-background">Background Info</button>
+  <!-- <button class="show-background">Background Info</button> -->
   <div class="background-info hidden">
     <button class="close-background-pane">&times;</button>
 
@@ -80,16 +87,11 @@
 
   <div class="overlay hidden"></div>
 
-  <div class="headers">
-    <button class="open-expressions">Edit Expressions</button>
-    <!-- <h3 id="expressions">Edit expressions</h3> -->
-    <input type="text" id="sum" readonly>
-    <h3 id="graph">Graph</h3>
-  </div>
+  <!-- <button class="open-expressions">Open Graph and Expressions</button> -->
 
 
-  <div id="calculator" style="width: 100%; height: 600px;">
-    <script src="./src/calculator.js" async="false"></script>
+  <div id="calculator" style="width: device-width; height: 600px;">
+    <script src="./src/calculator.js"></script>
   </div>
 
   <br>
