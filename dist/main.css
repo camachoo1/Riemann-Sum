@@ -15,24 +15,6 @@ body {
   font-weight: bold;
 }
 
-/* #sum {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-.headers {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  column-width: auto;
-}
-
-#graph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .hidden {
   display: none;
 }
@@ -65,40 +47,43 @@ body {
 
 .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .show-instructions {
   align-items: center;
   font-family: arame;
-  padding: 6px;
+  padding: 10px;
   border: none;
-  background-color: black;
+  background-color: blue;
   color: white;
-  border-radius: 10rem;
+  border-radius: 12rem;
   cursor: auto;
+  margin-bottom: 0.5rem;
 }
 
 .show-background {
   align-items: center;
   font-family: arame;
-  padding: 5px;
+  padding: 10px;
   border: none;
-  background-color: black;
+  background-color: blue;
   color: white;
-  border-radius: 10rem;
+  border-radius: 12rem;
   cursor: auto;
+  margin-bottom: 0.5rem;
 }
 
 .open-expressions {
   align-items: center;
   font-family: arame;
-  padding: 6px;
+  padding: 10px;
   border: none;
-  background-color: black;
+  background-color: blue;
   color: white;
-  border-radius: 10rem;
+  border-radius: 12rem;
   cursor: auto;
 }
 

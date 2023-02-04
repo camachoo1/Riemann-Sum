@@ -6,12 +6,12 @@ createExpressions.addEventListener(
   'click',
   () => {
     const calculator = Desmos.GraphingCalculator(elt, {
-      zoomButtons: false,
+      zoomButtons: true,
       expressions: true,
       settingsMenu: false,
       expressionsCollapsed: false,
       notes: true,
-      lockViewport: true,
+      lockViewport: false,
     });
 
     calculator.setMathBounds({
@@ -125,5 +125,3 @@ createExpressions.addEventListener(
   },
   { once: true }
 );
-
-// console.log(calculator.getExpressions()[11].latex);
