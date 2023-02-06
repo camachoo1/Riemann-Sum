@@ -8,9 +8,12 @@ createExpressions.addEventListener(
     const calculator = Desmos.GraphingCalculator(elt, {
       zoomButtons: true,
       expressions: true,
-      settingsMenu: false,
+      settingsMenu: {
+        reverseContrast: true,
+      },
       expressionsCollapsed: false,
-      notes: true,
+      notes: false,
+      reverseContrast: true,
       lockViewport: false,
     });
 
@@ -120,6 +123,7 @@ createExpressions.addEventListener(
         secret: true,
       },
     ]);
+
     const newDefaultState = calculator.getState();
     calculator.setDefaultState(newDefaultState);
   },

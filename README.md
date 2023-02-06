@@ -36,4 +36,4 @@ With this data visualization tool, users will be able to:
 - Saturday/Sunday: Will work on creating the expressions/functions that will generate the Riemann Sums given a function and ensure that state is maintained throughout.
 - Monday: Getting graphs to render on HTML page and sums are calculated given user inputted graphs.
 - Tuesday: Work on styling, formatting, adding pop-up with instructions/background info, adding respective links to GitHub/LinkedIn.
-- Wednesday: If not finished, work on styling and continue to test functionality of the page and look for instances of failure/edge cases to fix. After everything is done deplot to GitHub pages.
+- Wednesday: If not finished, work on styling and continue to test functionality of the page and look for instances of failure/edge cases to fix. After everything is done deploy to GitHub pages.

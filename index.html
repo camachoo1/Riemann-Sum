@@ -7,19 +7,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./dist/main.css">
   <script src="./dist/main.js"></script>
-  <!-- <script src="./src/index.scss"></script> -->
   <script src="https://www.desmos.com/api/v1.7/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
   <title>Riemann Sum</title>
 </head>
 
 <body>
-  <h1 id="header">Intro to the Riemann Sum</h1>
-  <div class="btns">
-    <button class="show-instructions">Instructions</button>
+  <div class="container">
+    <ul>
+      <li><a href="#" class="show-instructions">instructions</a></li>
+      <li><a href="#" class="show-background">Background</a></li>
+      <li><a href="#calculator" class="open-expressions">Open Graph</a></li>
+      <li><a href="#socials">Socials</a></li>
+    </ul>
 
-    <button class="show-background">Background Info</button>
+    <h2 id="header">Intro to the Riemann Sum</h2>
+    <p>A fun and interactive way of exploring how to compute definite integrals by calculating the area under a graph
+      using different variations of the Riemann Sum</p>
 
-    <button class="open-expressions">Open Graph</button>
+  </div>
+
+  <div class="objects">
+    <ul class="squares">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
   </div>
 
   <br>
@@ -92,13 +107,13 @@
   <!-- <button class="open-expressions">Open Graph and Expressions</button> -->
 
 
-  <div id="calculator" style="width: 100%; height: 700px;">
+  <div id="calculator" style="width: 100%; height: 100vh;">
     <script src="./src/calculator.js"></script>
   </div>
 
   <br>
 
-  <div class="socials">
+  <div id="socials">
     <a href="https://linkedin.com/in/omar-camacho-aa01b3133">
       <ion-icon id="linkedin" name="logo-linkedin"></ion-icon>
     </a>
