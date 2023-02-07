@@ -13,8 +13,30 @@ body {
   color: solid black;
   font-style: italic;
   font-weight: bold;
+  animation: fade 5s;
+  -webkit-animation: fade 5s;
+  -moz-animation: fade 5s;
+  -o-animation: fade 5s;
+  -ms-animation: fade 5s;
 }
 
+div.container > p {
+  font-family: arame;
+  animation: fade 10s;
+  -webkit-animation: fade 10s;
+  -moz-animation: fade 10s;
+  -o-animation: fade 10s;
+  -ms-animation: fade 10s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .container {
   width: 100%;
   position: absolute;
@@ -69,7 +91,7 @@ body {
   overflow: hidden;
 }
 
-.squares {
+.circles {
   position: absolute;
   top: 0;
   left: 0;
@@ -78,27 +100,27 @@ body {
   overflow: hidden;
 }
 
-.squares li {
+.circles li {
   position: absolute;
   display: block;
   list-style: none;
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.2);
+  background: #0c192c;
   box-shadow: 0 0 0 5px rgba(51, 222, 185, 0.2666666667), 0 0 20px #33deb9, 0 0 100px #33deb9;
   animation: animate 15s linear infinite;
   bottom: -150px;
 }
 
-.squares li:nth-child(1) {
+.circles li:nth-child(1) {
   left: 85%;
   width: 80px;
   height: 80px;
   animation-delay: 0s;
 }
 
-.squares li:nth-child(2) {
+.circles li:nth-child(2) {
   left: 10%;
   width: 20px;
   height: 20px;
@@ -106,14 +128,14 @@ body {
   animation-duration: 10s;
 }
 
-.squares li:nth-child(3) {
+.circles li:nth-child(3) {
   left: 65%;
   width: 90px;
   height: 90px;
   animation-delay: 5s;
 }
 
-.squares li:nth-child(4) {
+.circles li:nth-child(4) {
   left: 50%;
   width: 135px;
   height: 135px;
@@ -121,14 +143,14 @@ body {
   animation-duration: 15s;
 }
 
-.squares li:nth-child(5) {
+.circles li:nth-child(5) {
   left: 70%;
   width: 50px;
   height: 50px;
   animation-delay: 0s;
 }
 
-.squares li:nth-child(6) {
+.circles li:nth-child(6) {
   left: 10%;
   width: 100px;
   height: 100px;
