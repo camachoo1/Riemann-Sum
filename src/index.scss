@@ -9,6 +9,7 @@ body {
   align-items: center;
   color: solid black;
   font-style: italic;
+  text-decoration: wavy;
   font-weight: bold;
   animation: fade 5s;
   -webkit-animation: fade 5s;
@@ -19,6 +20,8 @@ body {
 
 div.container > p {
   font-family: arame;
+  font-style: italic;
+  color: #878787;
   animation: fade 10s;
   -webkit-animation: fade 10s;
   -moz-animation: fade 10s;
@@ -41,11 +44,18 @@ div.container > p {
   height: 50px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: fixed;
+  text-align: center;
+  left: 30%;
 }
 
 .container ul li {
   display: inline-block;
   padding: 40px 15px;
+  text-align: center;
+  padding-top: 5px;
 }
 
 .container ul li a {
