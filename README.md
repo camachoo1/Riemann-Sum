@@ -28,7 +28,7 @@ With this data visualization tool, users will be able to:
 
 ## Interface
 
-![Home Page](https://github.com/camachoo1/Riemann-Sum/assets/homepage.png)
-![Instructions](https://github.com/camachoo1/Riemann-Sum/assets/instructions.png)
-![Background Info](https://github.com/camachoo1/Riemann-Sum/assets/backgroundinfo.png)
-![Graph UI](https://github.com/camachoo1/Riemann-Sum/assets/graph.png)
+![Home Page](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/homepage.png)
+![Instructions](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/instructions.png)
+![Background Info](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/backgroundinfo.png)
+![Graph UI](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/graph.png)
