@@ -41,14 +41,14 @@ Used JavaScript/CSS to add pop ups for instructions and background information t
 <br>
 
 ```javascript
-// src/btns.js
+// src/instructions.js
 const openInstructions = () => {
-  howToPlay.classList.remove('hidden');
+  instructions.classList.remove('hidden');
   overlay.classList.remove('hidden');
 };
 
 const closeInstructions = () => {
-  howToPlay.classList.add('hidden');
+  instructions.classList.add('hidden');
   overlay.classList.add('hidden');
 };
 
