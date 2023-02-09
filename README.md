@@ -31,8 +31,34 @@ With this data visualization tool, users will be able to:
 Used CSS to style the home page with animations, nav bar, and hover effects.
 ![Home Page](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/homepage.png)
 
+<br>
+
 Used JavaScript/CSS to add pop ups for instructions and background information tabs
+
+<br>
+
+```javascript
+// src/btns.js
+const openInstructions = () => {
+  howToPlay.classList.remove('hidden');
+  overlay.classList.remove('hidden');
+};
+
+const closeInstructions = () => {
+  howToPlay.classList.add('hidden');
+  overlay.classList.add('hidden');
+};
+
+// Event Listeners
+btnOpenInstructPane.addEventListener('click', openInstructions);
+btnCloseInstructPane.addEventListener('click', closeInstructions);
+```
+
+<br>
+
 ![Instructions](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/instructions.png)
+<br>
+
 ![Background Info](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/backgroundinfo.png)
 
 Used Desmos API to render a graph and used latex to write in expressions while assigning them hidden class properties so they arent able to be edited by the user.
