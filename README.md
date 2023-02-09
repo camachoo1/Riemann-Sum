@@ -28,7 +28,12 @@ With this data visualization tool, users will be able to:
 
 ## Interface
 
+Used CSS to style the home page with animations, nav bar, and hover effects.
 ![Home Page](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/homepage.png)
+
+Used JavaScript/CSS to add pop ups for instructions and background information tabs
 ![Instructions](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/instructions.png)
 ![Background Info](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/backgroundinfo.png)
+
+Used Desmos API to render a graph and used latex to write in expressions while assigning them hidden class properties so they arent able to be edited by the user.
 ![Graph UI](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/graph.png)
