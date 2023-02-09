@@ -1,10 +1,10 @@
 # Riemann-Sums
 
-## Background
+# Background
 
 The Fundemental Theorem of Calculus consists of 2 key parts, differentiation and integration (anti-derivitive). This application will be focusing on using the Riemann Sum to calculate the integration part to find the area under a curve given an interval. The Riemann Sum is calculated by partitioning the interval into equally sized rectangles what when summed together gives an approximation of the actual area under the curve. As the number of partitions grows to infinity the approximate sum appraoches the true sum.
 
-## Features
+# Key Features
 
 With this data visualization tool, users will be able to:
 
@@ -14,19 +14,22 @@ With this data visualization tool, users will be able to:
 4. Be able to utilize a left point, right point, or midpoint sum.
 5. Have a pop-up with instructions of how to use the tool.
 
-- Will give access to the Github repo and LinkedIn profile
+## Other Small Features
+
+- Give access to the Github repo and LinkedIn profile
 - Left hand side will display the expressions list that will allow users to input their function.
 - Will keep computational formulas hidden from the user so that the formulas cannot be manipulated.
 - Right side of page will display the interactive graph which will allow users to move left/right endpoints, zoom in/out, and drag around the graph.
 - Top bar will include the instructions of how to use the model and Bottom bar will have links to GitHub and LinkedIn.
 
-## Technologies
+# Technologies
 
 - Desmos API to render/create the graphs.
-- KaTeX API to compile LaTeX into usable JavaScript for inputting functions/expressions.
+- JavaScript to create the logic and functions for calculating the sums of each partition.
+- HTML / CSS for styling and formatting the page.
 - Webpack to bundle and transpile the JavaScript code.
 
-## Interface
+# Interface
 
 Used CSS to style the home page with animations, nav bar, and hover effects.
 ![Home Page](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/homepage.png)
@@ -63,3 +66,10 @@ btnCloseInstructPane.addEventListener('click', closeInstructions);
 
 Used Desmos API to render a graph and used latex to write in expressions while assigning them hidden class properties so they arent able to be edited by the user.
 ![Graph UI](https://github.com/camachoo1/Riemann-Sum/blob/main/assets/graph.png)
+
+# Bonus Features (Upcoming):
+
+1. Will be looking to implement a dark mode to the UI of the graph to allow for darker colors.
+2. Will create a button to destroy the graph instance.
+3. Prompts for when the user inputs an invalid expression.
+4. Multivariable/3D graph rendering for more complex computations.
