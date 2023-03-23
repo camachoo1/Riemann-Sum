@@ -20,7 +20,7 @@
       <li><a href="#" class="show-background">Background</a></li>
       <li><a href="#calc" class="open-expressions">Open Graph</a></li>
       <!-- <li><a href="#top" class="close-expressions">Close Graph</a></li> -->
-      <li><a href="#socials">About me</a></li>
+      <li><a href="#" class="show-about">About me</a></li>
     </ul>
 
     <h2 id="header">Intro to the Riemann Sum</h2>
@@ -105,7 +105,6 @@
     </p>
   </div>
 
-  <div class="overlay hidden"></div>
 
   <!-- <button class="open-expressions">Open Graph and Expressions</button> -->
 
@@ -116,20 +115,28 @@
 
   <br>
 
-  <div id="socials">
-    <a href="https://linkedin.com/in/omar-camacho-aa01b3133">
-      <ion-icon id="linkedin" name="logo-linkedin"></ion-icon>
-    </a>
-    <br>
-    <a href="https://github.com/camachoo1/Riemann-Sum">
-      <ion-icon id="github" name="logo-github"></ion-icon>
-    </a>
+  <div class="socials-info hidden">
+    <button class="close-socials">&times;</button>
+    <h1>Socials</h1>
+    <div class="btns">
+
+      <a href="https://linkedin.com/in/omar-camacho-aa01b3133">
+        <ion-icon id="linkedin" name="logo-linkedin">LinkedIn</ion-icon>
+      </a>
+      <br>
+      <a href="https://github.com/camachoo1/Riemann-Sum">
+        <ion-icon id="github" name="logo-github"></ion-icon>
+      </a>
+    </div>
   </div>
+
+  <div class="overlay hidden"></div>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="./src/instructions.js"></script>
   <script src="./src/backgroundInfo.js"></script>
+  <script src="./src/about.js"></script>
 </body>
 
 </html>

@@ -205,40 +205,33 @@ div.container > p {
   z-index: 10;
 }
 
-// .show-instructions {
-//   align-items: center;
-//   font-family: Permanent Marker;
-//   padding: 10px;
-//   border: none;
-//   background-color: blue;
-//   color: white;
-//   border-radius: 12rem;
-//   cursor: auto;
-//   margin-bottom: 0.5rem;
-// }
+.socials-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
 
-// .show-background {
-//   align-items: center;
-//   font-family: Permanent Marker;
-//   padding: 10px;
-//   border: none;
-//   background-color: blue;
-//   color: white;
-//   border-radius: 12rem;
-//   cursor: auto;
-//   margin-bottom: 0.5rem;
-// }
+  background-color: #0c192c;
+  color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem black;
+  z-index: 10;
+}
 
-// .open-expressions {
-//   align-items: center;
-//   font-family: Permanent Marker;
-//   padding: 10px;
-//   border: none;
-//   background-color: blue;
-//   color: white;
-//   border-radius: 12rem;
-//   cursor: auto;
-// }
+.socials-info > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 
 .close-instructions-pane {
   position: absolute;
