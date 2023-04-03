@@ -2,7 +2,7 @@
 
 ## Background
 
-The Fundamental Theorem of Calculus consists of 2 key parts, differentiation and integration (anti-derivitive). This application will be focusing on using the Riemann Sum to calculate the integration part to find the area under a curve given an interval. The (Riemann Sum)[https://camachoo1.github.io/Riemann-Sum/] is calculated by partitioning the interval into equally sized rectangles what when summed together gives an approximation of the actual area under the curve. As the number of partitions grows to infinity the approximate sum approaches the true sum.
+The Fundamental Theorem of Calculus consists of 2 key parts, differentiation and integration (anti-derivitive). This application will be focusing on using the Riemann Sum to calculate the integration part to find the area under a curve given an interval. The [Riemann Sum](https://camachoo1.github.io/Riemann-Sum/) is calculated by partitioning the interval into equally sized rectangles what when summed together gives an approximation of the actual area under the curve. As the number of partitions grows to infinity the approximate sum approaches the true sum.
 
 ## Key Features
 
