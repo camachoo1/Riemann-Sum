@@ -1,10 +1,10 @@
 # Riemann-Sums
 
-# Background
+## Background
 
-The Fundemental Theorem of Calculus consists of 2 key parts, differentiation and integration (anti-derivitive). This application will be focusing on using the Riemann Sum to calculate the integration part to find the area under a curve given an interval. The Riemann Sum is calculated by partitioning the interval into equally sized rectangles what when summed together gives an approximation of the actual area under the curve. As the number of partitions grows to infinity the approximate sum appraoches the true sum.
+The Fundamental Theorem of Calculus consists of 2 key parts, differentiation and integration (anti-derivitive). This application will be focusing on using the Riemann Sum to calculate the integration part to find the area under a curve given an interval. The (Riemann Sum)[https://camachoo1.github.io/Riemann-Sum/] is calculated by partitioning the interval into equally sized rectangles what when summed together gives an approximation of the actual area under the curve. As the number of partitions grows to infinity the approximate sum approaches the true sum.
 
-# Key Features
+## Key Features
 
 With this data visualization tool, users will be able to:
 
@@ -22,7 +22,7 @@ With this data visualization tool, users will be able to:
 - Right side of page will display the interactive graph which will allow users to move left/right endpoints, zoom in/out, and drag around the graph.
 - Top bar will include the instructions of how to use the model and Bottom bar will have links to GitHub and LinkedIn.
 
-# Technologies
+## Technologies
 
 - Desmos API to render/create the graphs.
 - JavaScript to create the logic and functions for calculating the sums of each partition.
